@@ -63,6 +63,7 @@ namespace test.Controllers
             GetUserList ().Remove (response);
             return Ok (response);
         }
+
         public List<User> GetUserList () {
             List<User> users = new List<User> ();
 
